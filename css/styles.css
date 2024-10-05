@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: #6e0000;
+    color: rgb(238, 238, 238);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.produto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Para espaçar os produtos */
+}
+
+.produto {
+    background: rgb(244, 255, 94);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 10px;
+    width: calc(33% -90px); /* Para três produtos em uma linha */
+    box-sizing: border-box; /* Para incluir padding e margin no cálculo de largura */
+}
+
+.preco {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center; /* Alinha o preço ao centro */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #6e0000;
+    color: white;
+    width: 100%;
+    margin-top: 20px; /* Espaço acima do footer */
+}
