@@ -34,8 +34,11 @@ main {
     border-radius: 5px;
     padding: 1px;
     margin: 10px;
-    width: calc(33% -90px); /* Para três produtos em uma linha */
+    width: calc(36% - 78px); /* Para três produtos em uma linha */
     box-sizing: border-box; /* Para incluir padding e margin no cálculo de largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .preco {
@@ -53,3 +56,12 @@ footer {
     width: 100%;
     margin-top: 20px; /* Espaço acima do footer */
 }
+button {
+    display: block;
+    background-color: #d4d4d4;
+    color: #6e0000;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
