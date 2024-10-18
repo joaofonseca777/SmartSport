@@ -25,27 +25,46 @@ main {
 .produto-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Para espaçar os produtos */
+    justify-content: space-between;
 }
 
 .produto {
     background: rgb(244, 255, 94);
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1px;
     margin: 10px;
-    width: calc(36% - 78px); /* Para três produtos em uma linha */
-    box-sizing: border-box; /* Para incluir padding e margin no cálculo de largura */
+    width: calc(36% - 78px);
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flu img,
+.vas img {
+    width: 200px;
+    height: auto;
+}
+
+.tamanhos-botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.tamanhos-botoes button {
+    flex: 3;
+    margin: 1px;
+    padding: 1px;
+    font-size: 12px;
 }
 
 .preco {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    text-align: center; /* Alinha o preço ao centro */
+    text-align: center;
 }
 
 footer {
@@ -54,8 +73,9 @@ footer {
     background: #6e0000;
     color: white;
     width: 100%;
-    margin-top: 20px; /* Espaço acima do footer */
+    margin-top: 20px;
 }
+
 button {
     display: block;
     background-color: #d4d4d4;
@@ -64,4 +84,5 @@ button {
     font-weight: bold;
     text-align: center;
 }
+
 
